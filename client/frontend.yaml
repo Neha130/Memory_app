@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  Name: memories-app
+  labels:
+      app: memories-app
+spec:
+  containers:
+    - name: my_frontend_app  
+      image: my_frontend_app  
+
